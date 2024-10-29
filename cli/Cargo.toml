@@ -1,6 +1,6 @@
 [package]
 name = "plankton-cli"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/hwsimmons17/plankton"
 description = "Plankton CLI"
@@ -9,6 +9,8 @@ license = "Apache-2.0"
 [dependencies]
 anyhow = "1.0.91"
 clap = { version = "4.5.20", features = ["derive"] }
+heck = "0.5.0"
+syn = "2.0.85"
 
 [env]
 PLANKTON_PKG_VERSION="0.0.1"
